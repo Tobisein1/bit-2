@@ -3,25 +3,25 @@ body {
 }
 header {
 	background-color: white;
-	padding: 1rem; /* optional, for spacing */
+	padding: 1rem;
 }
 
 header h1 {
 	text-align: center;
-	color: rgba(22, 64, 114, 1); /* your blue color */
-	margin: 0; /* optional, remove default margins */
+	color: rgba(22, 64, 114, 1);
+	margin: 0;
 }
 
 main {
-	background-color: rgba(22, 64, 114, 1); /* same blue as header text */
-	padding: 2rem; /* add some spacing */
-	min-height: 100vh; /* optional, full height */
-	color: white; /* to keep text readable if any */
+	background-color: rgba(22, 64, 114, 1);
+	padding: 2rem;
+	min-height: 100vh;
+	color: white;
 }
 
 .card-img-top {
 	width: 100%;
-	aspect-ratio: 4 / 5; /* Maintain 5:4 ratio */
-	object-fit: cover; /* Crop excess while covering container */
-	border-radius: 0.5rem; /* Optional rounded corners */
+	aspect-ratio: 4 / 5;
+	object-fit: cover;
+	border-radius: 0.5rem;
 }
