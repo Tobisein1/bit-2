@@ -1,0 +1,27 @@
+body {
+	background-color: rgba(22, 64, 114, 1);
+}
+header {
+	background-color: white;
+	padding: 1rem; /* optional, for spacing */
+}
+
+header h1 {
+	text-align: center;
+	color: rgba(22, 64, 114, 1); /* your blue color */
+	margin: 0; /* optional, remove default margins */
+}
+
+main {
+	background-color: rgba(22, 64, 114, 1); /* same blue as header text */
+	padding: 2rem; /* add some spacing */
+	min-height: 100vh; /* optional, full height */
+	color: white; /* to keep text readable if any */
+}
+
+.card-img-top {
+	width: 100%;
+	aspect-ratio: 4 / 5; /* Maintain 5:4 ratio */
+	object-fit: cover; /* Crop excess while covering container */
+	border-radius: 0.5rem; /* Optional rounded corners */
+}
